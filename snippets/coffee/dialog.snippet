@@ -1,0 +1,8 @@
+$('<div>').html("${1}").dialog
+  modal: true
+  resizable: false
+  buttons:
+    '确定': ->
+      $(@).dialog 'close'
+    '取消': ->
+      $(@).dialog 'close'

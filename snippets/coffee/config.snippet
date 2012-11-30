@@ -1,0 +1,17 @@
+COMMON_BASE = 'http://localhost/libs/arale/modules/'
+
+seajs.config
+  base: COMMON_BASE
+  alias:
+    '$': 'jquery/1.7.2/jquery',
+    '$-debug': 'jquery/1.7.2/jquery-debug',
+    'jquery': 'jquery/1.7.2/jquery',
+    'jquery-debug': 'jquery/1.7.2/jquery-debug',
+
+    'jasmine': 'jasmine/1.1.0/jasmine-html'
+    'jasmine-jquery': '1.4.2'
+
+  preload: [
+    'seajs/plugin-json'
+    'seajs/plugin-text'
+  ]
